@@ -1,0 +1,32 @@
+.form-group {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    background: none;
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.btn-sucess {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+a:hover {
+    color: violet;
+}

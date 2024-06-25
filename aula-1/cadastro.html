@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="estilo-cadastro.css" />
 </head>
+
 <body>
-    <h1>Nosso primeiro formulário :]</h1>
-    <form action="/pagina-processa-dados-do-form" method="post" > <div>
-        <label for="nome">Qual o seu nome?</label>
-        <input type="text" id="nome" />
+  <h1 class="titulo">Nosso primeiro formulário :]</h1>
+  <form action="/pagina-processa-dados-do-form" method="post">
+      <div class="form-group">
+          <label for="nome">Qual o seu nome?</label>
+          <input type="text" id="nome" />
+      </div>
+      <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" />
+      </div>
+      <div class="form-group">
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg"></textarea>
+      </div>
+      <div class="form-group">
+          <p>Qual sua idade?</p>
+          <input type="radio" name="idade" value="18_22">18 a 22 <br>
+          <input type="radio" name="idade" value="23_30">23 a 30 <br>
+          <input type="radio" name="idade" value="mais31">acima de 31<br>
       </div>
       <div>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" />
+          <p>Precisamos de algumas informações sobre seu você e seu pet:</p>
+          <input type="checkbox" name="pergunta1" value="outros_animais">Possuo outros animais de estimação além de
+          gatos<br>
+          <input type="checkbox" name="pergunta2" value="animais_em_casa">Os animais ficam dentro de casa<br>
+          <input type="checkbox" name="pergunta3" value="passear_sozinhos">Não deixo os gatos passearem sozinhos<br>
       </div>
       <div>
-        <label for="msg">Mensagem:</label>
-        <textarea id="msg"></textarea>
-      </div>    
+          Data de nascimento: <input type="date" name="nascimento">
+      </div>
+      
+      <button type="submit" class="btn-sucess">Enviar</button>
+    
 
-      <div>
-        <p>Qual a sua idade?</p>
-        <input type="radio" name="Idade" value="18 a 20 anos">Teste <br>
-        <input type="radio" name="Idade" value="40 a 50 anos"/>Teste 2 <br>
-    </div>
-    
-    </form>
+      <p id="my-id">Testando meu novo atribudo: o id</p>
+      <a>Olá</a>
 
-    
-    
-    
+  </form>
+
+
+
+
 </body>
+
 </html>

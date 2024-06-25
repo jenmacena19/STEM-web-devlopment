@@ -1,3 +1,31 @@
 p {
     color: blue;
+    background-color: yellow;
+    margin: 20px 10px 45px 30px;
 }
+
+#my-id {
+    color: aqua;
+    background-color: pink;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+p {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 55px;
+    padding-bottom: 40px;
+}
+/* Mudar o fundo da página */
+body {
+    background-color: rgb(170, 220, 220);
+}
+
+/*Exemplo de gradiente no fundo
+div {
+    background: content-box radial-gradient(rgb(33, 25, 144), skyblue);
+}
+*/ 

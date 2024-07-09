@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+</head>
+<body onload="loadCar()">
+    <p>Selecione um carro</p>
+    <select id="car" onchange="selectCar()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+    </select>
+    <p id="demo"></p>
+
+    <button onclick="countCar()">Addiconar mais um</button>
+    <p id="count"></p>
+    <script src="carro.js"></script>
+</body>
+</html>

@@ -2,10 +2,11 @@ p {
     color: blue;
     background-color: yellow;
     margin: 20px 10px 45px 30px;
+
 }
 
 #my-id {
-    color: aqua;
+    color: red;
     background-color: pink;
 }
 
